@@ -12,7 +12,55 @@
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
 
-    <script src="https://kit.fontawesome.com/7f4eaca7bf.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/7f4eaca7bf.js" crossorigin="anonymous"></script> -->
+
+    <style>
+
+        .carousel-item {
+
+            height: 480px;
+        }
+
+        .im1 {
+
+            height: 480px;
+
+        }
+
+        .head1 {
+
+            top: 30px;
+        }
+
+        .btc {
+            color: rgb(246, 243, 248);
+            background-color: blueviolet;
+            border-radius: 20px;
+        }
+
+        .bor {
+            border: 0px;
+        }
+
+        .cls-btn {
+
+            margin-left: 754px;
+
+        }
+
+        .formm{
+            width: 80%;
+        }
+
+        .submit {
+
+            background-color: green;
+            color: white;
+            border-radius: 20px;
+            
+        }
+        
+    </style>
 
 </head>
 
@@ -47,14 +95,114 @@
                         <a class="nav-link text-black p-3">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-black p-3  me-5">CONTACT</a>
+                        <a class="nav-link text-black p-3 me-5">CONTACT</a>
                     </li>
                 </ul>
 
-                
+
             </div>
         </div>
     </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide im1">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./images/luminar1.jpg" class="d-block w-100 im" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start fs-6 text-white head1">
+                    <h1><strong>Data Science, ML & AI<br>Big Data-Hadoop &Spark<br>Python Data Science</strong></h1>
+                    <br>
+                    <p>We LUMINAR TECHNOLAB offers best sofware training and placement in emerging technologies like Big
+                        Data,Hadoop,Spark,Data Science,Machine Learning and AI.</p>
+                    <br><button class="btn btc"><strong>VIEW COURSES</strong></button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/luminar2.jpg" class="d-block w-100 im" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start fs-6 text-white head1">
+                    <h1>Data Science, ML & AI<br>Big Data-Hadoop &Spark <br>Python Data Science</h1><br>
+                    <p>We LUMINAR TECHNOLAB offers best sofware training and placement in emerging technologies like Big
+                        Data,Hadoop,Spark,Data Science,Machine Learning and AI.</p>
+                    <br><button class="btn btc"><strong>VIEW COURSES</strong></button>
+                </div>
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div><br>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary ms-4 mt-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        More to Know
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+
+
+                <div>
+                    <button type="button" class="btn-close pt-5 cls-btn" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-center fs-2 mb=3"><strong>Getting Training Quote for free</strong></p>
+                    <form action="" class="container formm">
+                        <input type="text" placeholder="Name" class="form-control mt-3 bor">
+                        <hr>
+                        <input type="email" placeholder="E-mail" class="form-control mt-3 bor">
+                        <hr>
+                        <input type="text" placeholder="Phone Number" class="form-control mt-3 bor">
+                        <hr>
+
+                        <select name="" id="" class="form-control mt-3 bor">
+                            <option value="">Select Course interested in</option>
+                            <option value="">Data Science - ML - AI - Big Data with Cloud & Tableau</option>
+                            <option value="">Python Django - Angular - Full Stack Web Development Expert</option>
+                            <option value="">MEARN Stack Web Development Expert - Angular & React</option>
+                            <option value="">Business Analytics - Power BI & Tableau</option>
+                            <option value="">Android Developer Expert Training in Kochi - Flutter</option>
+                            <option value="">PYTHON - DATA SCIENCE with ML - AI - & TABLEAU</option>
+                        </select>
+                        <hr>
+
+                        <!-- <input type="text" placeholder="Comments" class="form-control mt-3 bor"> -->
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Comments" class="form-control mt-3 bor"></textarea>
+                        <hr>
+
+
+                        <button class="btn submit">SUBMIT</button>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 
 </body>
 
