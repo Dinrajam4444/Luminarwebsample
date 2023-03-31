@@ -1,0 +1,75 @@
+.im1 {
+
+            width: 100%;
+
+        }
+
+        .head1 {
+
+            top: 30px;
+        }
+
+        .btc {
+            color: rgb(246, 243, 248);
+            background-color: blueviolet;
+            border-radius: 20px;
+        }
+
+        .bor {
+            border: 0px;
+        }
+
+        .cls-btn {
+
+            margin-left: 754px;
+
+        }
+
+        .formm {
+            width: 80%;
+        }
+
+        .submit {
+
+            background-color: green;
+            color: white;
+            border-radius: 20px;
+
+        }
+
+        .first{
+
+            color: blueviolet;
+
+        }
+
+        .second{
+            color: #5e068a99;
+        }
+
+        /* .third{
+            line-height: 28px;
+            margin-bottom: 12px;
+            color: black;
+        } */
+
+        .learn{
+
+            color: rgb(241, 207, 18);
+            background-color: blueviolet;
+            border-radius: 20px;
+            
+            
+        }  
+        
+        .learn:hover{
+            color: blueviolet;
+            border: solid blueviolet;
+            background-color: white;
+        }
+
+        .grid-image{
+
+            width: 90%;
+            margin-top: -45px;
+        }
