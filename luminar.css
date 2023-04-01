@@ -1,4 +1,11 @@
-.im1 {
+        /* .carousel-item {
+            height: 480px;
+        }
+         */
+
+        
+
+        .im1 {
 
             width: 100%;
 
@@ -72,4 +79,13 @@
 
             width: 90%;
             margin-top: -45px;
+        }
+
+        @media(max-width:806px){
+
+            .carousel-caption{
+
+                margin-top: 38px;
+             }
+             
         }
