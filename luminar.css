@@ -35,9 +35,11 @@
         }
 
         .btc {
+
             color: rgb(246, 243, 248);
             background-color: blueviolet;
             border-radius: 20px;
+            
         }
 
         .bor {
@@ -338,11 +340,11 @@
         }
 
 
-        @media(max-width:383px){
+        /* @media(max-width:383px){
             .btc{
-                margin-top: -65px;
+                margin-top: 40px;
             }
-        }
+        } */
 
         @media(max-width:401px){
             .heading-carousel{
@@ -352,5 +354,9 @@
             }
             .carousel-para{
                 font-size: 12px;
+            }
+
+            .btc{
+                margin-top: 40px;
             }
         }
